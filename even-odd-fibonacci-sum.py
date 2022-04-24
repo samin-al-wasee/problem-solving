@@ -20,5 +20,5 @@ def even_odd_fibonacci(start_inclusive, end_inclusive):
         prev_prev = prev
         prev = nextt
     return even_sum, odd_sum
-print(even_odd_fibonacci(0, 20))
+print(even_odd_fibonacci(0, 10 ** 18))
 print("Took {taken_time} seconds".format(taken_time = time() - start))
