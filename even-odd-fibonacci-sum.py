@@ -1,4 +1,5 @@
 # Given a range (inclusive), find out the sum of all the even and odd fibonacci numbers in that range seperately.
+# Can also be solved using the concept of perfect square.
 from time import time
 start = time()
 def even_odd_fibonacci(start_inclusive, end_inclusive):
