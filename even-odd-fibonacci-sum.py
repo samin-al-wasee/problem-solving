@@ -1,7 +1,7 @@
 # Given a range (inclusive), find out the sum of all the even and odd fibonacci numbers in that range seperately.
 # Can also be solved using the concept of perfect square.
-# In that case, we can directly start from the starting point without having to calculate all the fibonacci numbers from 0 to starting point. \
-# That approach, however, does not improver the performance or execution time significantly.
+# In that case, we can directly start from the starting point without having to calculate all the fibonacci numbers from 0 to starting point.
+# That approach, however, does not improve the performance or execution time significantly.
 
 from time import time
 start = time()
