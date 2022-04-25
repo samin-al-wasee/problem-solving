@@ -2,7 +2,6 @@
 # Can also be solved using the concept of perfect square.
 # In that case, we can directly start from the starting point without having to calculate all the fibonacci numbers from 0 to starting point.
 # That approach, however, does not improve the performance or execution time significantly.
-
 from time import time
 start = time()
 def even_odd_fibonacci(start_inclusive, end_inclusive):
